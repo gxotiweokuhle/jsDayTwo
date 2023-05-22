@@ -22,26 +22,22 @@ clearbutton.addEventListener('click', function() {//arrow function to add eventl
     calculator.value = calculator.value.slice(0, -1);//slices each num on the array
 });
 
+
 /*const buttons = document.querySelectorAll('add', 'minus','times', 'divide');
 buttons.addEventListener('click', function(){
             console.log('button who dis?');
             if(calculator.value === '+'){
 
             }
-})*/
-
-
-
-
-/*
+})
 high order function, callback function!!
 let clear = ()=>{
     let calculator = document.getElementById("screen");
     if (calculator.value !="") {
         calculator.value = "";
     }
-}*/
-/*function add(num1, num2){
+}
+function add(num1, num2){
     var num1 = parseFloat(document.getElementById("num1").value);
     var num2 = parseFloat(document.getElementById("num2").value);
     sum = num1 + num2;
